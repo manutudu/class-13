@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Global CSS */
+P{
+    font-size: 16px;
+    font-family: "OpenSans";
+    color: rgb(134, 135, 139);
+    line-height: 24px;
+}
+
+h2{
+    font-size: 36px;
+    font-family: "Raleway";
+}
+
+h4{
+    font-size: 40px;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(250, 245, 245);
+    font-weight: 400;
+  }
+.underline{
+width: 75px;
+height: 2px;
+}
+
+
+/* header css code start */
+header{
+    background: #000;
+    padding: 8px 0px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.navber-nav .nav-link.active, .navber-nav .nav-link.show{
+    color: #fff;
+} 
+
+.banner-section{
+    width: 100%;
+    background: url(../img/cover.png) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content-inner h1{
+font-size: 70px;
+font-weight: 700;
+color: white;
+}
+
+.content-inner h1 span{
+    font-size: 70px;
+    font-weight: 300;
+    color: #ff8b38;
+    }
+ .content-inner h2{
+        color: #fff;
+        width: 74%;
+ }
+
+ .content-inner .underline{
+    background-color: #fff;
+    margin: 30px 0px;
+}
+
+.content-inner p{
+    width: 69%;
+    color: #fff;
+    font-family: "Raleway";
+    font-family: 300;
+}
+
+.btns{
+    margin-top: 30px;
+}
+
+.btns .btn-info{
+    background: transparent !important ;
+    border-radius: 0 !important;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 8px 30px;
+}
+
+.cus-height{
+    height: 100vh;
+}
